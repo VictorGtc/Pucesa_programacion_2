@@ -4,8 +4,7 @@ class Persona:
         self.eded=edad
         self.ocupacion=ocupacion
         
-    def decripcion(self):
-        return f"Nombre: {self.nombre}, Edad: {self.eded}, Ocupacion: {self.ocupacion}"
+
     
     def __str__(self):
         return f"Nombre: {self.nombre}, Edad: {self.eded}, Ocupacion: {self.ocupacion}"
